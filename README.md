@@ -22,11 +22,16 @@ Then launch services.
 $ docker-compose up -d
 ```
 
-You can open `http://<your ip address>:7474`.
+You can find neo4j gui in `http://<your ip address>:7474`.
+
+![neo4j](./figures/neo4j.png)
+
 Then insert fixture data.
 
 ```bash
 $ cat start.cypher | docker-compose exec -T neo4j cypher-shell -u neo4j -p neo4j2
 ```
 
-Finally you can open `http://<your ip address>:8080`
+Finally you can find graph in `http://<your ip address>:8080`
+
+![neovisjs](./figures/neovisjs.png)
