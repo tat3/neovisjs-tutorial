@@ -1,6 +1,6 @@
 # neovis.js tutorial
 
-This tutorial follows [official tutorial](https://github.com/neo4j-contrib/neovis.js)
+This follows [official tutorial in README](https://github.com/neo4j-contrib/neovis.js)
 
 ## Usage
 
